@@ -1,0 +1,4 @@
+
+
+DEFAULT_BACKUP_PATH = "#PYAB#\\backups\\#GAME_NAME#\\#PROFILE_NAME#\\Backups"
+APPVERSION = 1.0

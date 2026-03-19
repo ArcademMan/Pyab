@@ -1,0 +1,124 @@
+{
+    "ok": "OK",
+    "error": "ERROR",
+    "cancel": "Cancel",
+    "admin_warning": "Warning: not running as Administrator.",
+
+    "game_list_manager": "Game List Manager",
+    "profile_list_manager": "Profile List Manager",
+
+    "confirm_deletion": "Confirm Deletion",
+    "confirm_delete": "Confirm Delete",
+    "confirm_delete_all": "Confirm Delete All",
+    "confirm_restore": "Confirm Restore",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Info",
+
+    "delete_game_confirm": "Are you sure you want to delete '{name}'?",
+    "delete_game_cascade": "This will also delete {count} associated profile(s).",
+    "delete_profile_confirm": "Are you sure you want to delete profile '{name}'?",
+    "delete_backup_confirm": "Are you sure you want to delete the backup '{name}'?\n\nThis action cannot be undone.",
+    "delete_all_backups_confirm": "Are you sure you want to delete ALL {count} backups for this profile?\n\nThis action cannot be undone.",
+    "restore_backup_confirm": "Are you sure you want to restore the backup '{name}'?\n\nThis will overwrite your current save files.",
+
+    "no_profile_selected": "No profile selected.",
+    "no_game_selected": "No Game Selected!",
+    "select_game_first": "You must select a game in order to create a new Profile!",
+    "select_profile_first": "You must select a profile in order to edit it!",
+    "profile_not_selected": "Profile not selected.",
+
+    "backup_completed": "Backup completed successfully",
+    "backup_error": "Backup error: {message}",
+    "backup_deleted": "Backup '{name}' deleted successfully.",
+    "all_backups_deleted": "Successfully deleted {count} backups.",
+    "backup_not_found": "Backup file not found.",
+    "no_backups_found": "No backups found to delete.",
+    "no_backup_folder": "No backup folder found.",
+
+    "auto_backup_stop": "Stop Auto Backup",
+    "auto_backup_start": "Start Auto Backup",
+    "auto_backup_stopped": "Automatic backup stopped",
+    "auto_backup_watching": "Watching the file for changes...",
+    "auto_backup_paused": "Paused, game is not running.",
+    "auto_backup_next": "Next backup in: {seconds}s",
+    "auto_backup_creating": "Game active - Creating backup...",
+    "file_modified_backup": "File modified - Creating backup...",
+    "manual_backup_progress": "Manual backup in progress...",
+
+    "game_saved": "Game '{name}' saved successfully.",
+    "profile_saved": "Profile '{name}' saved successfully.",
+    "name_exists": "The name '{name}' already exists.",
+    "profile_exists": "Profile name '{name}' already exists for this game.",
+
+    "restore_success": "Backup '{name}' restored successfully.\n\nRestored files: {files}",
+    "restore_no_files": "No matching save files found in backup to restore.",
+
+    "select_backup_delete": "Please select a backup to delete.",
+    "select_backup_restore": "Please select a backup to restore.",
+    "select_profile_error": "Please select a profile first.",
+
+    "validation": {
+        "name_empty": "Game name cannot be empty.",
+        "save_name_empty": "Save file name cannot be empty.",
+        "exe_name_empty": "Game executable name cannot be empty.",
+        "save_path_empty": "Save file path cannot be empty.",
+        "profile_name_empty": "Profile name cannot be empty.",
+        "max_files_invalid": "Max backup files must be at least 1.",
+        "max_size_invalid": "Max backup size must be at least 1 MB.",
+        "timer_invalid": "Auto backup timer cannot be negative.",
+        "validation_error": "Validation Error"
+    },
+
+    "context_menu": {
+        "restore": "Restore Backup",
+        "open_folder": "Open Backup Folder",
+        "delete_selected": "Delete Selected Backup",
+        "delete_all": "Delete All Backups"
+    },
+
+    "table_headers": {
+        "name": "Name",
+        "date": "Date",
+        "size": "Size"
+    },
+
+    "menu": {
+        "games": "Games",
+        "profiles": "Profiles",
+        "settings": "Settings",
+        "language": "Language",
+        "edit_list": "Edit List",
+        "add_new_game": "Add New Game",
+        "show_all_profiles": "Show All Profiles"
+    },
+
+    "ui": {
+        "games": "Games",
+        "profiles": "Profiles",
+        "with_profiles": "With Profiles",
+        "all_profiles": "All Profiles",
+        "search_game": "Search by game name...",
+        "search_profile": "Search by profile name...",
+        "create_game": "New",
+        "edit_game": "Edit",
+        "create_profile": "New",
+        "edit_profile": "Edit",
+        "backups": "Backups",
+        "profile_info": "Profile Info",
+        "actions": "Actions",
+        "screenshot_preview": "Screenshot Preview",
+        "game_status": "Game Status",
+        "launch_at_start": "Launch at start",
+        "open_backup_path": "Open Backup Path",
+        "delete_selected": "Delete Selected",
+        "delete_all_backups": "Delete All Backups",
+        "toggle_auto_backup": "Toggle Automatic Backups",
+        "backup_now": "Backup Now",
+        "restore_selected": "Restore Selected",
+        "auto_backup_active": "Auto Backup Active",
+        "auto_backup_quit_confirm": "Auto backup is still running. Are you sure you want to quit?",
+        "language_changed": "Language Changed",
+        "language_restart": "Language changed. Restart the app to apply."
+    }
+}
